@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Konversi Bilangan</string>
+
+    <string name="main_fragment_decimal_title">Desimal</string>
+    <string name="main_fragment_binary_title">Biner</string>
+    <string name="main_fragment_octal_title">Oktal</string>
+    <string name="main_fragment_hexadecimal_title">Heksadesimal</string>
 </resources>
