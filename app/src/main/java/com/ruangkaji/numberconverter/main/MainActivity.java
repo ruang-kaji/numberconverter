@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import com.ruangkaji.numberconverter.R;
 import com.ruangkaji.numberconverter.main.fragments.BinaryFragment;
+import com.ruangkaji.numberconverter.main.fragments.DecimalFragment;
 import com.ruangkaji.numberconverter.main.fragments.HexadecimalFragment;
 import com.ruangkaji.numberconverter.main.fragments.OctalFragment;
 import com.ruangkaji.numberconverter.utils.TabAdapter;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         tabAdapter = new TabAdapter(getSupportFragmentManager());
         tabAdapter.addFragment(
                 getString(R.string.main_fragment_decimal_title),
-                new HexadecimalFragment());
+                new DecimalFragment());
         tabAdapter.addFragment(
                 getString(R.string.main_fragment_binary_title),
                 new BinaryFragment());
