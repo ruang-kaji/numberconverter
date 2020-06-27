@@ -176,7 +176,9 @@
             android:focusable="false"
             android:gravity="bottom|end"
             android:inputType="none"
+            android:maxLines="5"
             android:minLines="3"
+            android:scrollbars="vertical"
             android:text="0"
             android:textIsSelectable="true"
             android:textSize="20sp"
@@ -413,12 +415,12 @@
             android:textSize="22sp"
             app:fontFamily="@font/white_rabbit_regular"
             app:layout_constraintLeft_toRightOf="@id/btn_e"
-            app:layout_constraintRight_toLeftOf="@id/btn_0"
+            app:layout_constraintRight_toLeftOf="@id/btn_zero"
             app:layout_constraintTop_toTopOf="@id/btn_d"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_0"
+            android:id="@+id/btn_zero"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:gravity="bottom|center"
