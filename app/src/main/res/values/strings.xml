@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Number Converter Apps</string>
+    <string name="app_name">Number Converter</string>
+
+    <string name="main_fragment_decimal_title">Decimal</string>
+    <string name="main_fragment_binary_title">Binary</string>
+    <string name="main_fragment_octal_title">Octal</string>
+    <string name="main_fragment_hexadecimal_title">Hexadecimal</string>
 </resources>
